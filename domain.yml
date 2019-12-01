@@ -1,0 +1,22 @@
+intents:
+- greet
+- goodbye
+- inform
+entities:
+- employee_name
+slots:
+  employee_name:
+    type: text
+templates:
+  utter_greet:
+  - text: Hello! How can I help?
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye bye :(
+  utter_ask_employee_name:
+  - text: What is the name of the employee?
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_employee_name
+- action_check_leave
