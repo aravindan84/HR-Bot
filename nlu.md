@@ -3,7 +3,6 @@
 - goodbye
 - see you around
 - see you later
-- thanks
 
 ## intent:greet
 - hey
@@ -14,10 +13,14 @@
 - hey there
 
 ## intent:inform
-- How much leave does [jack](employee_name) have at the moment?
+- How much leave does [jack](emp_name) have at the moment?
 - What's the leave eligibility?
-- What's the leave eligibility of [Jack](employee_name)?
+- What's the leave eligibility of [Jack](emp_name)?
 - what is the leave eligibility
-- [jack](employee_name)
-- what is the leave eligibility of [jerry](employee_name)
-- ben
+- [jack](emp_name)
+- what is the leave eligibility of [jerry](emp_name)
+- [ben] (emp_name)
+- [Ben](emp_name)
+- [Suresh](emp_name)
+- [Jack](emp_name)
+- [Jim](emp_name)

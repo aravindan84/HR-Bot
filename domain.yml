@@ -4,8 +4,9 @@ intents:
 - inform
 entities:
 - employee_name
+- emp_name
 slots:
-  employee_name:
+  emp_name:
     type: text
 templates:
   utter_greet:
